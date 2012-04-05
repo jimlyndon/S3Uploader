@@ -26,7 +26,7 @@ And based on the great jQuery File Upload plugin: http://blueimp.github.com/jQue
 4. Deploy uploader javascript and form to s3 (run in command prompty)
     Open command prompt and run S3Uploader\S3PrepTask\bin\{debug or release}\S3PrepTask.exe
 
-5. Upload all the files!!! :)
+5. Start web app and Upload All the Things!!! :)
 
 
 == Notes
