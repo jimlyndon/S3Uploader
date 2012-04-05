@@ -46,10 +46,12 @@ namespace S3Uploader.Controllers
                 Acl = "public-read"
             };
 
+            const string AWS_ISO_FORMAT = "yyyy-MM-ddTHH:mm:ss.fffZ";
+
             var policy = 
                 new 
                 {
-                    expiration = "2013-04-20T11:54:21.032Z", 
+                    expiration = DateTime.Now.AddHours(10).ToUniversalTime().ToString(AWS_ISO_FORMAT, System.Globalization.CultureInfo.InvariantCulture),
                     conditions = new object[]
                                         {
                                             new { bucket = bucketName },
