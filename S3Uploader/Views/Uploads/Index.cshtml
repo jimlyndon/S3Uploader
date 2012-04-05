@@ -1,0 +1,19 @@
+@model S3Uploader.Models.FileUploadViewModel
+@{
+    Layout = "";
+}<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Html5S3Uploader</title>
+        <link href="~/Content/uploads.css.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="~/Scripts/uploads.js.js"></script>
+    </head>
+    <body>
+        <h1>jQuery S3 File Uploader Demo</h1>
+        <div id="uploader" data-s3-bucket="@Model.Bucket">
+            @Html.Partial("_iframe", Model)
+            <div id="uploading_files"></div>
+        </div>
+    </body>
+</html>

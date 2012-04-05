@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3Uploader", "S3Uploader\S3Uploader.csproj", "{0C17D268-3727-437B-8C15-7AD9894C6E35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72E8064E-F14C-4EBA-83E3-AE2B4D8E06A2}"
+	ProjectSection(SolutionItems) = preProject
+		README.rdoc = README.rdoc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B4978A99-9E2D-4139-8C98-AA02C5479DF2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3PrepTask", "S3PrepTask\S3PrepTask.csproj", "{9A11941F-E34F-4E38-B39D-E335B48A070C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0C17D268-3727-437B-8C15-7AD9894C6E35}.Release|x86.ActiveCfg = Release|Any CPU
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Debug|x86.ActiveCfg = Debug|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Debug|x86.Build.0 = Debug|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Release|Any CPU.ActiveCfg = Release|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Release|x86.ActiveCfg = Release|x86
+		{9A11941F-E34F-4E38-B39D-E335B48A070C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

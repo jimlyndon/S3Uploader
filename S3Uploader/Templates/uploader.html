@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+    <script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js'></script>
+    <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+    <script src='js/jquery.iframe-transport.js'></script>
+    <!-- The basic File Upload plugin -->
+    <script src='js/jquery.fileupload.js'></script>
+    <script src='js/s3_uploader.js'></script>
+  </head>
+  <body>
+    <form action='' enctype='multipart/form-data' id='file_upload' method='post'>
+        <input type="hidden" name="key" />
+        <input type="hidden" name="AWSAccessKeyId" />
+        <input type="hidden" name="acl" value="public-read" />
+        <input type="hidden" name="success_action_status" value="201" />
+        <input type="hidden" name="policy" />
+        <input type="hidden" name="signature" />
+        <input type="file" name="file" multiple="multiple"/>
+    </form>
+  </body>
+</html>
