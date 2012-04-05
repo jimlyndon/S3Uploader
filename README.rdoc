@@ -23,7 +23,7 @@ And based on the great jQuery File Upload plugin: http://blueimp.github.com/jQue
 3. Set your server host in S3Uploader/S3Uploader/Scripts/s3_uploader/s3_uploader.js:
     var host = 'http://yourdomain.com';
 
-4. Deploy uploader javascript and form to s3 (run in command prompty)
+4. Deploy uploader javascript and form to s3 (run in command prompt)
     Open command prompt and run S3Uploader/S3PrepTask/bin/{debug or release}/S3PrepTask.exe
 
 5. Start web app and Upload All the Things!!! :)
