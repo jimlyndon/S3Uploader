@@ -12,9 +12,9 @@ And based on the great jQuery File Upload plugin: http://blueimp.github.com/jQue
 
 == Getting Started
 
-1. Build S3Uploader\S3Uploader.sln (make sure nuget package restore pulls all the dependencies down that you need)
+1. Build S3Uploader/S3Uploader.sln (make sure nuget package restore pulls all the dependencies down that you need)
 
-2. Fill in the AWS S3 config variables within S3Uploader\S3PrepTask\App.config and S3Uploader\S3Uploader\Web.config:
+2. Fill in the AWS S3 config variables within S3Uploader/S3PrepTask/App.config and S3Uploader/S3Uploader/Web.config:
     AWSAccessKey
     AWSSecretKey
     AWSBucket
@@ -24,7 +24,7 @@ And based on the great jQuery File Upload plugin: http://blueimp.github.com/jQue
     var host = 'http://yourdomain.com';
 
 4. Deploy uploader javascript and form to s3 (run in command prompty)
-    Open command prompt and run S3Uploader\S3PrepTask\bin\{debug or release}\S3PrepTask.exe
+    Open command prompt and run S3Uploader/S3PrepTask/bin/{debug or release}/S3PrepTask.exe
 
 5. Start web app and Upload All the Things!!! :)
 
